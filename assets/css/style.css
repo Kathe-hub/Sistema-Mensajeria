@@ -1,0 +1,170 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+
+/*SECCION ASIDE*/
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex: 0 0 20%;
+    border: 1px solid gray; 
+}
+
+/*Usuario María*/ 
+#usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border: 1px, solid, gray; 
+    border-width: thin;  
+}
+
+
+#usuario > section:nth-child(1) > img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 35px;
+}
+
+#usuario > section:nth-child(2) > h5 {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+#usuario > section:nth-child(3) {
+    margin-left: 80px;
+}
+
+.destacado {
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 10px;
+    color: gray;
+}
+
+.i-color {
+    color: gray;
+    padding: 5px;  
+}
+
+
+
+/*Boton Nuevo Chat*/
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+#boton { 
+    background-color: #A491D2;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    margin: 40px;
+    text-align: center;
+}
+
+#boton:hover {
+    background-color: #CDC3E6;
+}
+
+#boton:active {
+    background-color: #d4dcff;
+}
+
+
+
+/*Contactos*/
+#contactos {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid grey;
+    font-weight: 700;
+}
+
+#contactos > section:nth-child(1) > img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 35px;
+}
+
+#contactos > section:nth-child(2) > h5 {
+    line-height: 25px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#contactos > section:nth-child(2) > p {
+    margin-left: 10px;
+    color: black;
+    font-size: 10px;
+}
+
+
+
+
+/*SECCION PRINCIPAL*/
+
+#contenedor_chat {
+    display: flex;
+    background-color: #e8ebe4;
+    flex: 0 0 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor_chat > section:nth-child(1) > { /*flecha ">" solo se aplica a los section hijos del id que escojamos*/
+    margin-bottom: 30px;
+}
+
+#contenedor_chat > section:nth-child(1) > img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#contenedor_chat > section:nth-child(2) > {
+    text-align: center;
+}
+
+#contenedor_chat > section:nth-child(2) > h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+#contenedor_chat > section:nth-child(2) > p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+
+
+
+
+
